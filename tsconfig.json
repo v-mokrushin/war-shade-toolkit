@@ -7,12 +7,12 @@
     "moduleResolution": "node",
     "declaration": true,
     "sourceMap": true,
-    "declarationDir": "dist/dts/",
+    "declarationDir": "dist/index.d.ts",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*", "rollup.config.js"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
